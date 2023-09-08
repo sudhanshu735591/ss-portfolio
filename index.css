@@ -172,11 +172,12 @@ h3 {
     line-height: 132%;
 }
 
+.ccs{
+    display: none;
+}
 
 
 .experience-wrapper{
-    height: calc(p5vmin + 0.5vmax);
-    width: calc(p5vmin +0.5vmax);
     margin: 3% auto;
 }
 
@@ -378,7 +379,7 @@ h3 {
 
 
 .skillsbox {
-    height: 110vh;
+    height: 100vh;
     width: 100vw;
     background: url("./skills.jpg");
     background-size: cover;
