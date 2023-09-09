@@ -40,6 +40,12 @@
 }
 
 
+@media only screen and (max-width: 900px){
+    .section .overlay-wrapper, .section .section-wrapper {
+        padding: 100px 50px;
+    }
+}
+
 
 
 @media only screen and (max-width: 960px) {
@@ -121,6 +127,18 @@
         margin-top: 90%;
     }
 }
+
+
+
+
+/* 
+
+@media only screen and (max-width: 1135px) {
+    .toolbox ul {
+        position: unset;
+        top: 37%;
+    }
+} */
 
 
 /* 400
