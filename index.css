@@ -246,7 +246,7 @@ h3 {
     position: absolute;
     width: 50px;
     height: 50px;
-    top: 347px;
+    top: 32%;
     left: 50%;
     margin-left: 15px;
     border-radius: 50%;
@@ -261,7 +261,7 @@ h3 {
     position: absolute;
     width: 50px;
     height: 50px;
-    top: 610px;
+    top: 61%;
     left: 50%;
     margin-left: 15px;
     border-radius: 50%;
@@ -297,21 +297,20 @@ h3 {
     font-family: Gotham,Helvetica,Arial,sans-serif;
     position: absolute;
     width: 100%;
-    left: 700px;
-    top: 660px;
+    left: 60%;
+    top: 62%;
     color: yellow;
 }
 
 
 .date1 {
-   
-    
     font-family: Gotham,Helvetica,Arial,sans-serif;
     position: absolute;
-    left: 380px;
-    top: 380px;
+    left: 33%;
+    top: 34%;
     color: yellow;
 }
+
 
 
 
@@ -567,9 +566,12 @@ h3 {
     background-image: url("./contact.jpg");
     height: 100vh;
     width: 100vw;
+    border: 2px solid yellow;
     background-size: cover;
-    box-sizing: border-box;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 
@@ -578,38 +580,6 @@ h3 {
     font-size: calc(6vmin + 0.5vmax);
     position: relative;
     top: 10%;
-}
-
-/* 
-
-.contactbox h3{
-    text-align: center;
-}
-*/
-
-.contactcontainer{
-    height: 70%;
-    width: 50%;
-    margin: auto;
-    position: absolute;
-    margin: 7% 25%;
-}
-
-label{
-    font-size: calc(4vmin + 0.5vmax);
-
-}
-
-form{
-    position: relative;
-    left: 29%;
-    top: 17%;
-}
-
-
-.year{
-    position: relative;
-
 }
 
 input{
@@ -624,40 +594,13 @@ input{
 }
 .btn {
     box-sizing: border-box;
-    appearance: none;
-    background-color: transparent;
-    border: 2px solid red;
-    border-radius: 0.6em;
-    color: red;
-    cursor: pointer;
-    display: flex;
-    align-self: center;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1;
-    margin: 20px;
-    padding: 1.2em 2.8em;
-    text-decoration: none;
-    text-align: center;
-    text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-  
-    &:hover,
-    &:focus {
-      color: #fff;
-      outline: 0;
-    };
-  }
-
-
-  .third {
-    border-color: yellow;
-    color: #fff;
-    box-shadow: 0 0 40px 40px blue inset, 0 0 0 0 yellow;
-    transition: all 150ms ease-in-out;
+    background-color: black;
     
-    &:hover {
-      box-shadow: 0 0 10px 0 blue inset, 0 0 10px 4px blue;
-    }
+   
   }
+
+  .contact h1{
+    margin: auto;
+  }
+
+

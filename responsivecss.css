@@ -36,12 +36,12 @@
     }
 
     .timeline-img1 {
-        top: 447px;
+        top: 37%;
         left: -1%;
     }
 
-    .timeline-img2{
-        top: 826px;
+    .timeline-img2 {
+        top: 67%;
         left: -1%;
     }
 
@@ -59,6 +59,25 @@
     .ccs{
         display: block;
         font-size: 0.7em;
+    }
+
+
+    .experience-wrapper .timeline .timeline-block:nth-child(odd) .timeline-content {
+        float: left;
+        margin-left: 18%;
+        width: 60%;
+        margin-top: 1%;
+    }
+
+    .timeline-content {
+        float: none;
+        margin-left: 18%;
+        width: 60%;
+        margin-top: 5%;
+    }
+
+    .pos{
+        margin-top: 4%;
     }
 }
 
