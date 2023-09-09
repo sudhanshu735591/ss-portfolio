@@ -20,6 +20,15 @@
     .timeline-img2 {
         margin-top: -28%;
     }
+
+    .imagecontainer img {
+        height: 41vh;
+        width: 41vh;
+        border-radius: 50%;
+    }
+    .textcontainer h1{
+        line-height: 1.2;
+    }
 }
 
 
