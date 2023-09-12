@@ -9,6 +9,16 @@
     }
 
 }
+@media only screen and (max-width: 1121px) {
+    .knowledgebox {
+        display: flex;
+        justify-content: center;
+    }
+
+    .ecmascript {
+        text-align: center;
+    }
+}
 
 @media only screen and (max-width: 370px) {
     .boxcontainer ul {
@@ -25,6 +35,12 @@
     input {
         height: 50px;
         width: 434px;
+    }
+
+    .circletool {
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
     }
     
 }
