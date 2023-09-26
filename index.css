@@ -366,9 +366,6 @@ h3 {
 }
 
 .slider_Box{
-     height: 310px;
-    width: 400px;
-    border: 2px solid red;
     margin: auto;
 }
 
@@ -381,6 +378,7 @@ h3 {
     height: 310px;
     width: 400px;
     cursor: pointer;
+    border-radius: 20px;
 }
 
 .next{

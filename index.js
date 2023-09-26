@@ -33,14 +33,17 @@ nextLoader();
 
 
 next.addEventListener("click", nextLoader)
+console.log(flag);
 
 
 prev.addEventListener("click", () => {
     slider_Box.innerHTML = "";
+    flag--;
+
     if (flag === -1) {
         flag = arr.length - 1;
     }
-    console.log(flag);
+
     let a = document.createElement("a");
     a.href = link[flag];
 
@@ -51,7 +54,6 @@ prev.addEventListener("click", () => {
 
     a.appendChild(img);
     slider_Box.appendChild(a);
-    flag--;
 })
 
 
