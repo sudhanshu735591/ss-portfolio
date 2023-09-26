@@ -1,3 +1,7 @@
+
+
+
+
 @media only screen and (max-width: 790px) {
     .timeline-img1 {
         margin-top: -20%;
@@ -9,6 +13,12 @@
     }
 
 }
+
+
+
+
+
+
 @media only screen and (max-width: 1121px) {
     .knowledgebox {
         display: flex;
@@ -20,6 +30,13 @@
     }
 }
 
+
+
+
+
+
+
+
 @media only screen and (max-width: 370px) {
     .boxcontainer ul {
         display: grid;
@@ -30,6 +47,10 @@
         padding: 20px 20px 20px 20px; */
     }
 }
+
+
+
+
 
 @media only screen and (max-width: 731px) {
     input {
@@ -45,6 +66,10 @@
     
 }
 
+
+
+
+
 @media only screen and (max-width: 525px) {
     input {
         width: 326px;
@@ -58,6 +83,10 @@
 }
 
 
+
+
+
+
 @media only screen and (max-width: 340px){
     .imagecontainer img {
         height: 21vh;
@@ -66,6 +95,10 @@
     }
 }
 
+
+
+
+
 @media only screen and (max-width: 415px) {
     .imagecontainer img {
         height: 29vh;
@@ -73,6 +106,10 @@
         border-radius: 50%;
     }
 }
+
+
+
+
 
 
 @media only screen and (max-width: 400px) {
@@ -101,6 +138,10 @@
     
 }
 
+
+
+
+
 @media only screen and (max-width: 457px) {
     .textcontainer h1{
         line-height: 1.2;
@@ -109,11 +150,19 @@
 }
 
 
+
+
+
+
 @media only screen and (max-width: 900px){
     .section .overlay-wrapper, .section .section-wrapper {
         padding: 100px 50px;
     }
 }
+
+
+
+
 
 
 
@@ -126,6 +175,10 @@
         height:auto+0px;
     }
 }
+
+
+
+
 
 @media only screen and (max-width: 1000px) {
     .timeline::before {

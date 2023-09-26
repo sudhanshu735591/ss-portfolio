@@ -361,15 +361,49 @@ h3 {
     background-image: url(./projectImage.jpg);
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     min-height: 700px;
-    height: auto;
 }
 
-.projecttext{
-    padding: 31px;
+.slider_Box{
+     height: 310px;
+    width: 400px;
+    border: 2px solid red;
+    margin: auto;
 }
+
+.parentBox{
+    display: flex;
+    margin: auto;
+}
+
+.carousel_image{
+    height: 310px;
+    width: 400px;
+    cursor: pointer;
+}
+
+.next{
+    height: 40px;
+    margin: auto 20px;
+    padding: 3px;
+    border-radius: 7px;
+    font-size: 17px;
+    width: 79px;
+    background-color: rgb(212, 129, 21);
+}
+
+.prev{
+    height: 40px;
+    margin: auto 20px;
+    padding: 3px;
+    border-radius: 7px;
+    font-size: 17px;
+    width: 79px;
+    background-color: rgb(212, 129, 21);
+}
+
+
 
 
 .slider-container h1{
