@@ -10,6 +10,12 @@ body {
 }
 
 
+
+.header{
+    display: contents;
+}
+
+
 li, a, button{
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
@@ -65,11 +71,28 @@ button:hover{
 
 
 .container {
-    height: 100vh;
-    background: url("./background.jpg");
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    background: url(./background.jpg);
     background-size: cover;
+    flex-direction: column;
+}
+.name_deseg{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-direction: column;
+    margin: 100px;
 }
 
+
+
+.desg{
+    color: skyblue;
+    font-size: 1.2em;
+}
 
 
 h3 {
@@ -80,26 +103,6 @@ h3 {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 2vw;
-}
-
-
-.ndcontainer{
-    display: flex;
-    flex-direction: column;
-}
-
-.namecontainer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 170px;
-}
-
-
-
-.designation h3{
-    color: skyblue;
-  
 }
 
 
@@ -624,4 +627,10 @@ input{
 ::placeholder { 
     color: white;
     font-size: 20px;
-  }
+}
+
+.nameanddesignation{
+    height: 500px;
+    width: 500px;
+    border: 2px solid yellow;
+}

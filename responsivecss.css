@@ -105,6 +105,10 @@
         width: 25vh;
         border-radius: 50%;
     }
+
+    .carousel_image {
+        width: 265px;
+    }
 }
 
 
@@ -252,6 +256,11 @@
 
 
 
+@media only screen and (max-width: 639px) {
+    .parentBox {
+        display: contents;
+    }
+}
 
 /* 400
 600 
