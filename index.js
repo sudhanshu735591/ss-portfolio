@@ -7,7 +7,10 @@ const arr = ["https://plus.unsplash.com/premium_photo-1673735396428-d51dc2a7a62d
     "https://snacknation.com/wp-content/uploads/2020/12/Best-Task-Management-Software-Platforms.png"];
 
 const link = ["https://sudhanshu735591.github.io/Tic-Tac-Toe-Game/",
-    "https://sudhanshu735591.github.io/Task-Manager-App---Javascript-Project---ma50o6beiti5/"];
+    "https://sudhanshu735591.github.io/Task-Manager-App---Javascript-Project---ma50o6beiti5/",
+    "https://booking-com-clone-react-project-2-qbzssudndd81-poia.vercel.app/",
+    "https://beyoung-clone-seven.vercel.app/",
+];
 
 
 let flag = 0;
