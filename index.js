@@ -4,7 +4,11 @@ let next = document.getElementById("next");
 let prev = document.getElementById("prev");
 
 const arr = ["https://plus.unsplash.com/premium_photo-1673735396428-d51dc2a7a62d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80.png",
-    "https://snacknation.com/wp-content/uploads/2020/12/Best-Task-Management-Software-Platforms.png"];
+    "https://snacknation.com/wp-content/uploads/2020/12/Best-Task-Management-Software-Platforms.png",
+    "https://www.shutterstock.com/image-photo/los-angeles-california-usa-25-600nw-1450447361.jpg",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWzcepE_j1xW1rhHhGty1HsVQRk_aDDdf0vkCZ0BV9mQ&s"
+
+];
 
 const link = ["https://sudhanshu735591.github.io/Tic-Tac-Toe-Game/",
     "https://sudhanshu735591.github.io/Task-Manager-App---Javascript-Project---ma50o6beiti5/",
