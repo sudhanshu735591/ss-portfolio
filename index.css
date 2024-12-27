@@ -304,20 +304,6 @@ h3 {
     display: table;
     clear: both;
 }
-
-
-/* .downarrow {
-    display: block;
-    margin: 84% auto;
-    border-color: transparent;
-    border-top-color: yellow;
-    border-style: solid;
-    border-width: 15px 7px 0;
-    width: 0;
-} */
-
-
-
 .university {
     background-image: url("./university.png");
 }
